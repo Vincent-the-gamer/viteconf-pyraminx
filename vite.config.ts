@@ -9,4 +9,8 @@ export default defineConfig({
       ...templateCompilerOptions,
     }),
   ],
+  server: {
+    host: "localhost",
+    port: 8080
+  }
 })
